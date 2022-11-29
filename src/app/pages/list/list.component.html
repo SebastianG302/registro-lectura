@@ -1,0 +1,14 @@
+
+<div class="row">
+    <div class="col-sm-4 mt-4" *ngFor="let libro of libros">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{libro.nombre}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{libro.autor}}</h6>
+          <p class="card-text">Mi calificación: {{libro.calificacion}}/5</p>
+          <a class="btn btn-primary me-2 mb-1" routerLink="/ver/{{libro.id}}">Ver más...</a>
+          <a class="btn btn-danger mb-1">Eliminar</a>
+        </div>
+      </div>
+    </div>
+  </div>

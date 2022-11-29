@@ -1,0 +1,34 @@
+{
+  "libros": [
+    {
+      "id": "libro1",
+      "nombre": "Misery",
+      "autor": "Stephen King",
+      "calificacion": 5,
+      "fecha_inicio": "28/11/2022",
+      "fecha_fin": "28/11/2022",
+      "personaje_favorito": "Paul",
+      "frases_destacadas": "cualquier cosa"
+    },
+    {
+      "nombre": "El Psicoanalista",
+      "autor": "John Katzenbach",
+      "calificacion": 4,
+      "fecha_inicio": "14/04/2022",
+      "fecha_fin": "28/08/2022",
+      "personaje_favorito": "Frederick",
+      "frases_destacadas": "Zimmerman está muerto",
+      "id": "nnk_je7"
+    },
+    {
+      "nombre": "El Perfume",
+      "autor": "Patrick Süskind",
+      "calificacion": 5,
+      "fecha_inicio": "07/09/2018",
+      "fecha_fin": "23/12/2018",
+      "personaje_favorito": "Giuseppe Baldini",
+      "frases_destacadas": "El perfume vive en el tiempo; tiene su juventud, su madurez y su vejez.",
+      "id": "MaSKWBZ"
+    }
+  ]
+}
