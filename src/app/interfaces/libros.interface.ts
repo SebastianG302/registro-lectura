@@ -11,4 +11,5 @@ export interface Libro {
     fecha_fin:          string;
     personaje_favorito: string;
     frases_destacadas:  string;
+    descripcion: string
 }

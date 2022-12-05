@@ -1,1 +1,59 @@
-<p>add works!</p>
+<div class="pt-3 container">
+    <h2>Añadir libro</h2>
+    <hr>
+    <form [formGroup]="miFormulario" (ngSubmit)="save(miFormulario)" autocomplete="off">
+        <div class="mb-3">
+            <label class="form-label">Nombre del libro</label>
+            <input type="text" class="form-control" formControlName="nombre" maxlength="200" required>
+            <div class="form-text">Max: 200 carácteres</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Autor</label>
+            <input type="text" class="form-control" formControlName="autor" maxlength="200" required>
+            <div class="form-text">Max: 200 carácteres</div>
+        </div>
+        <div class="row">
+            <label class="form-label">Tu calificación</label>
+            <div class="col-4">
+                <select class="form-select mb-3" aria-label=" example" formControlName="calificacion" required>
+                    <option value="1">1 ⭐</option>
+                    <option value="2">2 ⭐</option>
+                    <option value="3">3 ⭐</option>
+                    <option value="4">4 ⭐</option>
+                    <option selected value="5">5 ⭐</option>
+                </select>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Fecha de inicio</label>
+            <input type="date" class="form-control" formControlName="fecha_inicio" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Fecha final</label>
+            <input type="date" class="form-control" formControlName="fecha_fin" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Personaje favorito</label>
+            <input type="text" class="form-control" formControlName="personaje_favorito" maxlength="200" required>
+            <div class="form-text">Max: 200 carácteres</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Frases a destacar</label>
+            <input type="text" class="form-control" formControlName="frases_destacadas" maxlength="300" required>
+            <div class="form-text">Separadas por coma. Max: 300 carácteres</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Descripción</label>
+            <input type="text" class="form-control" formControlName="descripcion" maxlength="500" required>
+            <div class="form-text">Max: 500 carácteres</div>
+        </div>
+
+        <div *ngIf="error" class="alert alert-danger" role="alert">
+            Datos incorrectos
+          </div>
+
+
+
+        <button type="submit" class="btn btn-primary">Añadir</button>
+    </form>
+</div>

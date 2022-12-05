@@ -1,7 +1,7 @@
 <h6 *ngIf="!libro; else divLibro">Cargando informción, por favor espere.</h6>
 
 <ng-template #divLibro>
-    <div class="row">
+    <div class="mb-3 row">
         <div class="col">
             <h1 class="mt-2">{{libro.nombre}}</h1>
             <h4>{{libro.autor}}</h4>
@@ -25,13 +25,12 @@
                 <strong>Frases a destacar: </strong>{{libro.frases_destacadas}}
             </li>
             <li class="list-group-item">
-                <strong>Descripción: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis cum, repellat eligendi
-                minima quasi voluptate dignissimos vel quo unde et esse consectetur sint repellendus sit? Delectus
-                laudantium sit odit.
+                <strong>Descripción: </strong>{{libro.descripcion}}
             </li>
 
         </ul>
+        
 
-
+        <a class="btn btn-danger mt-3" (click)="delete()">Eliminar</a>
     </div>
 </ng-template>

@@ -18,4 +18,11 @@ export class LibroService {
   getLibroId( id: String ){
     return this.http.get<Libro>(`${this.baseUrl}/libros/${id}`);
   }
+
+   addLibro( libro: Libro){
+    return this.http.post<Libro>(`${this.baseUrl}/libros`, libro)
+   }
+   deleteLibro( id: String ){
+    return this.http.delete<Libro>(`${this.baseUrl}/libros/${id}`)
+   }
 }

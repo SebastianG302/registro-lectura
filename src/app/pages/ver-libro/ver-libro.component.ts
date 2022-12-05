@@ -25,4 +25,11 @@ export class VerLibroComponent implements OnInit {
     .subscribe(libro => this.libro = libro)
   }
 
+  delete(){
+    this.libroService.deleteLibro(this.libro.id)
+    .subscribe(resp => {
+      this.router.navigate(['/'])
+    })
+  }
+
 }

@@ -1,34 +1,26 @@
 {
   "libros": [
     {
-      "id": "libro1",
+      "id": 1,
       "nombre": "Misery",
       "autor": "Stephen King",
       "calificacion": 5,
-      "fecha_inicio": "28/11/2022",
-      "fecha_fin": "28/11/2022",
-      "personaje_favorito": "Paul",
-      "frases_destacadas": "cualquier cosa"
+      "fecha_inicio": "2022-10-05",
+      "fecha_fin": "2022-11-24",
+      "personaje_favorito": "Paul Sheldon",
+      "frases_destacadas": "Cualquier frase",
+      "descripcion": "Un escritor que sufre un accidente y es secuestrado por una admiradora."
     },
     {
-      "nombre": "El Psicoanalista",
-      "autor": "John Katzenbach",
-      "calificacion": 4,
-      "fecha_inicio": "14/04/2022",
-      "fecha_fin": "28/08/2022",
-      "personaje_favorito": "Frederick",
-      "frases_destacadas": "Zimmerman está muerto",
-      "id": "nnk_je7"
-    },
-    {
-      "nombre": "El Perfume",
-      "autor": "Patrick Süskind",
+      "id": 2,
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+      "autor": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
       "calificacion": 5,
-      "fecha_inicio": "07/09/2018",
-      "fecha_fin": "23/12/2018",
-      "personaje_favorito": "Giuseppe Baldini",
-      "frases_destacadas": "El perfume vive en el tiempo; tiene su juventud, su madurez y su vejez.",
-      "id": "MaSKWBZ"
+      "fecha_inicio": "1223-02-21",
+      "fecha_fin": "3212-03-12",
+      "personaje_favorito": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+      "frases_destacadas": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean mascetur ridiculus mus. Donec qu",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quasdsasasdasdasdasdLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eg"
     }
   ]
 }

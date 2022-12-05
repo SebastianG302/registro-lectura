@@ -8,6 +8,7 @@ import { AddComponent } from './pages/add/add.component';
 import { ListComponent } from './pages/list/list.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { VerLibroComponent } from './pages/ver-libro/ver-libro.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VerLibroComponent } from './pages/ver-libro/ver-libro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
